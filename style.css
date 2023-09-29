@@ -1,0 +1,138 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.espacioBanderin{
+    max-width: 1200px;
+    position: relative;
+}
+
+.titulo_espacioBanderin{
+    z-index: 3;
+    font-size: 30px;
+    color: #f89967;
+    /* margin: 2rem; */
+    position: relative;
+    top: 1rem;
+    background: white;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.contenedor_espacioBanderin{
+    display: flex;
+    height: 30vh;
+    border-bottom: 2px solid #f89967;
+    border-right: 2px solid #f89967;
+    border-top: 2px solid #f89967;
+    padding: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.fondo_espacioBanderin{
+    background-color: #cce7d4;
+    width: 85%;
+}
+
+.texto_espacioBanderin{
+    font-size: 24px;
+    margin:3rem;
+    color: #c9825b;
+}
+
+.contenedor_imagen{
+    width: 40%;
+    background-color: #cce7d4;
+
+}
+
+.imagen_espacioBanderin{
+    width: 28vh;
+    top: -35px;
+    position: relative;
+}
+
+.ingresar{
+    position: relative;
+    top: -5rem;
+    left: 3.5rem;
+}
+
+.novedades{
+    z-index: 0;
+    padding: 4rem;
+    position: relative;
+    top: -1.5rem;
+    background-color: rgb(232, 233, 235);
+}
+
+.contedor_novedades{
+    align-content: center;
+    max-width: 1200px;
+}
+
+.subtitulo_novedades{
+    font-size: 30px;
+    color: rgb(201, 130, 91);
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.texto{
+    font-size: 24px;
+    color: #c9825b;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.contactoForm{
+    color:#f89967;
+
+}
+
+.inputs{
+    padding: 0.8rem;   
+}
+
+.buttonPrimary{
+    padding: 0.8rem 2rem;
+    margin: 0 1rem;
+    background-color: #f89967;
+    color: white !important;
+    border: none !important;
+}
+
+.buttonPrimary:hover{
+    background-color: #e86621;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(248, 153, 103);
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -2rem;
+}
+
+.footer{
+    max-width: 1200px;
+    background-color: #f89967;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    margin: 3rem;
+    text-decoration: none;
+    color: white !important;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.links:hover{
+    background-color: #e86621;
+}
